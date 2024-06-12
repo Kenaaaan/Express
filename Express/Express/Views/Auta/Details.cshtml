@@ -1,0 +1,48 @@
+﻿@model Express.Models.Proizvod
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Proizvod</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Proizvodjac)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Proizvodjac)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Model)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Model)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cijena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cijena)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Slika)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Slika)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Kilometraza)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Kilometraza)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

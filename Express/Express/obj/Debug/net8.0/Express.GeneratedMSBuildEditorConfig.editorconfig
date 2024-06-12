@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Express
+build_property.RootNamespace = Express
+build_property.ProjectDir = C:\Users\W\Desktop\za push\TIM30-AutoKuca-\Implementacija\Express\Express\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\W\Desktop\za push\TIM30-AutoKuca-\Implementacija\Express\Express
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Auta/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Korpa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Korpa/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Korpa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Korpa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Korpa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29ycGFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Proizvod/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvaXp2b2RcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Proizvod/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvaXp2b2RcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Proizvod/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvaXp2b2RcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Proizvod/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvaXp2b2RcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Proizvod/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvaXp2b2RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/W/Desktop/za push/TIM30-AutoKuca-/Implementacija/Express/Express/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3yo5qhx9pv

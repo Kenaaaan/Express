@@ -1,0 +1,85 @@
+﻿@model Express.Models.Korpa
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+    @if (Model.Products.Any())
+    {
+        <div class="row">
+            <div class="col-md-8">
+                <h4>Your Cart Items</h4>
+                <table class="table table-bordered">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Products)
+                        {
+                            <tr>
+                                <td>
+                                    <strong>@item.Proizvodjac @item.Model</strong>
+                                    <br />
+                                    <small>@item.Opis</small>
+                                </td>
+                                <td>@item.Cijena.ToString("C")</td>
+                                <td>
+                                    <form asp-action="RemoveFromCart" method="post">
+                                        <input type="hidden" name="proizvodId" value="@item.id" />
+                                        <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Checkout</h4>
+                <form asp-action="Checkout" method="post">
+                    <div class="form-group">
+                        <label for="address">Shipping Address</label>
+                        <input type="text" class="form-control" id="address" name="address" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="creditCard">Credit Card Number</label>
+                        <input type="text" class="form-control" id="creditCard" name="creditCard" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="expiryDate">Expiry Date</label>
+                        <input type="text" class="form-control" id="expiryDate" name="expiryDate" placeholder="MM/YY" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" class="form-control" id="cvv" name="cvv" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Total Amount</label>
+                        <p class="form-control-static">@Model.UkupnaCijena.ToString("C")</p>
+                    </div>
+                    <button type="submit" class="btn btn-success">Buy Now</button>
+                </form>
+                <div class="mt-3">
+                    <a asp-controller="Auta" asp-action="Index" class="btn btn-primary">continue shopping</a>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            Your cart is empty.
+        </div>
+        <a asp-controller="Auta" asp-action="Index" class="btn btn-primary">Go to Auta</a>
+    }
+</div>

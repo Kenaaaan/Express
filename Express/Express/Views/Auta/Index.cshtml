@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Express.Models.Proizvod>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="card car-card">
+                    <img src="@item.Slika" class="card-img-top car-image" alt="Car Image" onerror="this.src='~/images/no-image.png'" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Proizvodjac @item.Model</h5>
+                        <p class="card-text">Price: @item.Cijena</p>
+                        <p>@item.Opis</p>
+                        <p class="card-text">Kilometraza u km: @item.Kilometraza</p>
+                        <button class="btn btn-primary buy-button" data-toggle="modal" data-target="#cartModal" data-proizvod-id="@item.id">Buy</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">Product Added to Cart</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                The product has been added to your cart. What would you like to do next?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Continue Shopping</button>
+                <a href="/Korpa" class="btn btn-primary">Go to Cart</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.buy-button').on('click', function () {
+            var proizvodId = $(this).data('proizvod-id');
+
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Korpa")',
+                type: 'POST',
+                data: {
+                    proizvodId: proizvodId
+                },
+                success: function (response) {
+                    // Show the modal
+                    $('#cartModal').modal('show');
+                },
+                error: function (xhr, status, error) {
+                    console.error('Error adding product to cart:', error);
+                }
+            });
+        });
+    });
+</script>
