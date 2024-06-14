@@ -6,13 +6,8 @@
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -39,7 +34,15 @@ The Express Car Dealership Application is a web-based platform designed to manag
 - Bootstrap 4
 - jQuery
 
-Contributing
+## Usage
+Register a new account or log in with an existing account.
+Browse the available car listings.
+Use the search bar and filters to find specific cars.
+View detailed information about a car by clicking on it.
+Add cars to your shopping cart.
+Proceed to the cart to review your selected cars and checkout.
+
+## Contributing
 Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -50,7 +53,7 @@ Open a Pull Request
 License
 Distributed under the MIT License. See LICENSE for more information.
 
-Contact
+## Contact
 Kenan Abadzic - kenanabadzic231202@gmail.com or kabadzic1@etf.unsa.ba
 
 Project Link: https://github.com/Kenaaaan/Express
