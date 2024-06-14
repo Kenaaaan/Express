@@ -33,6 +33,9 @@ The Express Car Dealership Application is a web-based platform designed to manag
 - Microsoft SQL Server
 - Bootstrap 4
 - jQuery
+- VisualStudio
+- C#
+- SQL Server Management studio
 
 ## Usage
 Register a new account or log in with an existing account.
@@ -58,7 +61,7 @@ Kenan Abadzic - kenanabadzic231202@gmail.com or kabadzic1@etf.unsa.ba
 
 Project Link: https://github.com/Kenaaaan/Express
 
-Acknowledgements:
+## Acknowledgements:
 Bootstrap
 jQuery
 ASP.NET Core
