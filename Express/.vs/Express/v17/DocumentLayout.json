@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\auta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\controllers\\autacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\controllers\\autacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|c:\\users\\w\\desktop\\za push\\tim30-autokuca-\\implementacija\\express\\express\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6BADF98B-E802-4869-B19F-F772BB435FB5}|Express\\Express.csproj|solutionrelative:express\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -54,11 +62,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Express\\Views\\Auta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Auta\\Index.cshtml",
+              "RelativeToolTip": "Express\\Views\\Auta\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T18:26:48.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutaController.cs",
+              "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AutaController.cs",
+              "RelativeDocumentMoniker": "Express\\Controllers\\AutaController.cs",
+              "ToolTip": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AutaController.cs",
+              "RelativeToolTip": "Express\\Controllers\\AutaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T18:26:25.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Shared\\_LoginPartial.cshtml",
@@ -71,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Express\\Controllers\\AccountController.cs",
@@ -79,12 +117,11 @@
               "RelativeToolTip": "Express\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T22:09:15.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T22:09:15.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Shared\\_Layout.cshtml",
@@ -92,12 +129,11 @@
               "RelativeToolTip": "Express\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAwwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T22:07:24.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T22:07:24.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Home\\Index.cshtml",
@@ -105,12 +141,11 @@
               "RelativeToolTip": "Express\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T21:54:18.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T21:54:18.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Edit.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Edit.cshtml",
@@ -118,12 +153,11 @@
               "RelativeToolTip": "Express\\Views\\Korpa\\Edit.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAQwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T21:36:52.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T21:36:52.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Details.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Details.cshtml",
@@ -131,12 +165,11 @@
               "RelativeToolTip": "Express\\Views\\Korpa\\Details.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAQwB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T21:35:55.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T21:35:55.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Delete.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Delete.cshtml",
@@ -144,12 +177,11 @@
               "RelativeToolTip": "Express\\Views\\Korpa\\Delete.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAQwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T21:33:02.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T21:33:02.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Create.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Create.cshtml",
@@ -157,12 +189,11 @@
               "RelativeToolTip": "Express\\Views\\Korpa\\Create.cshtml",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T21:29:24.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T21:29:24.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Korpa.cs",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Models\\Korpa.cs",
               "RelativeDocumentMoniker": "Express\\Models\\Korpa.cs",
@@ -170,16 +201,11 @@
               "RelativeToolTip": "Express\\Models\\Korpa.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:30:28.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-06-12T20:30:28.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "KorpaController.cs",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Controllers\\KorpaController.cs",
               "RelativeDocumentMoniker": "Express\\Controllers\\KorpaController.cs",
@@ -187,12 +213,11 @@
               "RelativeToolTip": "Express\\Controllers\\KorpaController.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAzwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T20:29:01.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T20:29:01.453Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\W\\Desktop\\za push\\TIM30-AutoKuca-\\Implementacija\\Express\\Express\\Views\\Korpa\\Index.cshtml",
               "RelativeDocumentMoniker": "Express\\Views\\Korpa\\Index.cshtml",
@@ -200,8 +225,7 @@
               "RelativeToolTip": "Express\\Views\\Korpa\\Index.cshtml",
               "ViewState": "AQIAADcAAAAAAAAAAIAwwEgAAABpAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-12T20:28:39.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-12T20:28:39.022Z"
             }
           ]
         }

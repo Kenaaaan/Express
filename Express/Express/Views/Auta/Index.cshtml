@@ -2,13 +2,51 @@
 
 @{
     ViewData["Title"] = "Index";
+    var selectedCarBrand = ViewContext.HttpContext.Request.Query["carBrand"].ToString();
 }
 
-<div class="container">
+<div class="container mt-4">
+    <h2 class="mb-4">Search and Filter Cars</h2>
+
+    <form method="get" asp-action="Index">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <input type="text" class="form-control" name="searchString" placeholder="Search by Model or Brand" value="@ViewContext.HttpContext.Request.Query["searchString"]" />
+            </div>
+            <div class="form-group col-md-3">
+                <select class="form-control" name="carBrand">
+                    <option value="">All Brands</option>
+                    @foreach (var brand in (SelectList)ViewData["Brands"])
+                    {
+                        if (brand.Value == selectedCarBrand)
+                        {
+                            <option value="@brand.Value" selected>@brand.Text</option>
+                        }
+                        else
+                        {
+                            <option value="@brand.Value">@brand.Text</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" name="minMileage" placeholder="Min Mileage" value="@ViewContext.HttpContext.Request.Query["minMileage"]" />
+            </div>
+            <div class="form-group col-md-2">
+                <input type="number" class="form-control" name="maxMileage" placeholder="Max Mileage" value="@ViewContext.HttpContext.Request.Query["maxMileage"]" />
+            </div>
+            <div class="form-group col-md-1">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </form>
+
+    <hr />
+
     <div class="row">
         @foreach (var item in Model)
         {
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="card car-card">
                     <img src="@item.Slika" class="card-img-top car-image" alt="Car Image" onerror="this.src='~/images/no-image.png'" />
                     <div class="card-body">
