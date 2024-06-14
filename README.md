@@ -1,0 +1,63 @@
+# Express Car Dealership Application
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Table of Contents
+
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
+## About the Project
+
+The Express Car Dealership Application is a web-based platform designed to manage and display car listings for a car dealership. The application allows users to browse, search, and filter car listings, while administrators can manage the inventory, including adding, editing, and deleting car listings. Users can also add cars to their shopping cart and proceed with the purchase.
+
+## Features
+
+- User authentication and authorization
+- Browse and search car listings
+- Filter car listings by various criteria (e.g., brand, mileage)
+- View detailed information about each car
+- Add cars to the shopping cart
+- Manage shopping cart and proceed with checkout
+- Admin panel for managing car listings
+- Responsive design
+
+## Technologies Used
+
+- ASP.NET Core MVC
+- Entity Framework Core
+- Microsoft SQL Server
+- Bootstrap 4
+- jQuery
+
+Contributing
+Contributions are what make the open-source community such an amazing place to be, learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
+
+Contact
+Kenan Abadzic - kenanabadzic231202@gmail.com or kabadzic1@etf.unsa.ba
+
+Project Link: https://github.com/Kenaaaan/Express
+
+Acknowledgements:
+Bootstrap
+jQuery
+ASP.NET Core
+Entity Framework Core
